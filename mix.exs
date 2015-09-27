@@ -16,16 +16,7 @@ defmodule ButlerNew.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [
-      env: [plugins: plugins],
       applications: [:logger, :butler]
-    ]
-  end
-      # mod: {Butler, [plugins]}
-
-  def plugins do
-    [
-      {MyBot.Cowsay, []},
-      {MyBot.TestCount, []}
     ]
   end
 

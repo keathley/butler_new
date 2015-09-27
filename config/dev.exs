@@ -1,5 +1,5 @@
 use Mix.Config
 
-config :bot,
+config :butler,
   adapter: Butler.Adapters.Console
 
